@@ -1,0 +1,54 @@
+.skills{
+
+   width: 100%;
+
+}
+
+.skills__title{
+    margin: .9rem;
+    text-align: center;
+}
+
+.skills__line{
+
+    margin: .9rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+.skills__box{
+
+    margin: .5rem;
+    width: calc(50% - 1rem);
+    height: 6rem;
+    background: #ffffff;
+    
+   
+}
+.skills__img{
+
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+}
+
+.skills__name{
+
+    margin-left: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    
+    .skills__line{
+        margin: 2rem;
+    }
+
+    .skills__box{
+
+        margin: .5rem;
+        width: calc(33.3% - 2rem);
+        
+    
+    }
+}

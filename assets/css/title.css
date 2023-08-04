@@ -1,0 +1,59 @@
+.title{
+
+    font-family: 'Relawey';
+}
+
+.title__div{
+
+    width: 100%;
+}
+
+.title__profile{
+
+    width: 25%;
+    margin: 2rem;
+    border-radius: 50%;
+}
+
+.title__container{
+
+    margin: 0 2rem;
+
+}
+
+.title__network{
+
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1rem;
+}
+
+.title__subsection{
+
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+}
+.title__network__item{
+
+    font-weight: bold;
+}
+
+@media  screen and (min-width: 768px){ 
+       .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+       } 
+
+}
+
+@media screen and (min-width:1000px) {
+    
+    .title__network__item:hover{
+
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+    
+}

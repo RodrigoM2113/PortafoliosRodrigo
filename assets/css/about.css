@@ -1,0 +1,25 @@
+.about{
+    font-family: 'Relawey';
+    width: 100%;
+    background: #EAF2FE;
+}
+
+.about__container{
+
+    margin: 2rem;
+    text-align: justify;
+    line-height: 1.29rem;
+}
+.about__title{
+
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px ){
+    
+    .about__container{
+
+        margin: 2rem;
+    }
+
+}

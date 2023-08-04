@@ -1,0 +1,78 @@
+.menu{
+    font-family: 'Relawey';
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}   
+.menu__header{
+
+    display: flex;
+}
+.menu__header--img{
+
+   width: 25px;
+   height: 25px;
+   margin:  2rem 1rem 2rem 2rem;
+   align-self: center;
+}
+
+.menu__title{
+
+    font-size: .8rem;
+    align-self: center;
+}
+
+.menu__list{
+
+    display: flex;
+    display: none;
+   
+}
+
+.menu__list__item__contato{
+
+    margin-right: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .menu__title{
+        margin: 0;  
+        align-self: center;
+          
+
+    }
+    .menu__list__item__contato{
+
+        font-size: larger;
+        font-weight: bold;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+
+    .menu__list{
+
+        display: flex;
+        margin-right: 2rem;
+    }
+
+    .menu__list__item__contato{
+
+        display: none;
+
+    }
+    .menu__list__item{
+        margin: 0 .5rem;
+        
+    }
+    .menu__list__item:hover{
+
+        font-size: 1.5rem;
+        text-decoration: underline;
+        
+    }
+
+}
